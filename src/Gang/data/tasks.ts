@@ -343,7 +343,7 @@ export const gangMemberTasksMetadata: IGangMemberTaskMetadata[] = [
   {
     desc: "Assign this gang member to be a vigilante and protect the city from criminals<br><br>Decreases wanted level",
     isCombat: true,
-    isHacking: true,
+    isHacking: false,
     name: "Vigilante Justice",
     params: {
       baseWanted: -0.001,
@@ -390,7 +390,7 @@ export const gangMemberTasksMetadata: IGangMemberTaskMetadata[] = [
   {
     desc: "Assign this gang member to engage in territorial warfare with other gangs. Members assigned to this task will help increase your gang's territory and will defend your territory from being taken.",
     isCombat: true,
-    isHacking: true,
+    isHacking: false,
     name: "Territory Warfare",
     params: {
       hackWeight: 15,
